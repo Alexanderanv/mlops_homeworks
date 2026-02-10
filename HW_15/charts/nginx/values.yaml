@@ -1,0 +1,16 @@
+nginx:
+  # nginx docker image
+  image: nginx
+  # nginx docker image tag (version)
+  version: 1.14.2
+
+  resources:
+    requests:
+      cpu: 100m
+      memory: 128Mi
+    limits:
+      cpu: 200m
+      memory: 128Mi
+
+  ingress:
+    useIngress: false

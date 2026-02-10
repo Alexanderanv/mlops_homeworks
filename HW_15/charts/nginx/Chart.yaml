@@ -1,0 +1,10 @@
+apiVersion: v2
+version: 1.0.0
+appVersion: 1.14.2
+
+name: nginx
+description: nginx web server
+type: application
+keywords:
+- nginx
+- webserver

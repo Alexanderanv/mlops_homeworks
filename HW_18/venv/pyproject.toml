@@ -1,0 +1,10 @@
+[project]
+name = "venv"
+version = "0.1.0"
+description = "homework theme 18"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yoyo-migrations==9.0.0",
+    "psycopg2-binary"
+]
